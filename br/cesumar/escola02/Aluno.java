@@ -27,6 +27,6 @@ public class Aluno extends Pessoa{
 
     @Override
     public void apresentar(){
-        System.out.println("Aluno: "+getNome() + ", Idade: " + getIdade() + "Média: " + calcularMedia());
+        System.out.println("Aluno: "+getNome() + ", Idade: " + getIdade() + " Média: " + calcularMedia());
     }
 }

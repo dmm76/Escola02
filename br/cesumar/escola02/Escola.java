@@ -1,7 +1,9 @@
-
+import java.text.DecimalFormat;
 
 public class Escola {
     public static void main(String[] args){
+
+        DecimalFormat df = new DecimalFormat("#.00");
 
         //Criando professor para a turma
         Professor professorPortugues = new Professor("Patrica Alves", 48, "Português");
@@ -28,7 +30,7 @@ public class Escola {
         turma6A.adicionarAluno(aluno3);
 
         turma6A.listarAlunos();
-        System.out.println("Média da Turma: " + turma6A.calcularMediaDaTurma());
+        System.out.println("Média da Turma: " + df.format(turma6A.calcularMediaDaTurma()));
 
     }
 }
