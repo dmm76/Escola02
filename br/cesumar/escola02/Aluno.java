@@ -4,6 +4,7 @@ import java.util.List;
 public class Aluno extends Pessoa{
 
     //Criacao da lista para receber as notas dos alunos
+    //Double maiscula pq esta em um collection
     private List<Double> notas = new ArrayList<>();
 
     //Construtor Aluno com parametros
