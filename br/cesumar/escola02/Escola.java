@@ -20,7 +20,7 @@ public class Escola {
         aluno2.adicionarNota(7.5);
         aluno2.adicionarNota(8.5);
 
-        Aluno aluno3 = new Aluno("Carlos", 38);
+        Aluno aluno3 = new Aluno("Carlos Drummond de Andrade", 38);
         aluno3.adicionarNota(8.0);
         aluno3.adicionarNota(7.0);
 
